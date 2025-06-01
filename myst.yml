@@ -10,16 +10,16 @@ project:
     - Article Template
     - Computational Article
   github: https://github.com/msa-em/em-template
-  jupyter: true
+  # jupyter: true
   #  jupyter:
   #    binder:
   #      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
   #      repo: msa-em/em-template
   #      ref: main
-  #  jupyter:
-  #    server:
-  #      url: 'http://localhost:8888'
-  #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+   jupyter:
+     server:
+       url: 'http://localhost:8888'
+       token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   banner: banner.png
@@ -29,8 +29,8 @@ project:
     submitted: 2023-06-09
     published: 2024-07-24
   venue:
-    title: Elemental Microscopy
-    short_title: EM
+    title: None Determined
+    short_title: m3-learning
     doi: 10.69761/EM
   requirements:
     - 'environment.yml'
