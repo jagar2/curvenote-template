@@ -1,25 +1,25 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: msa-em-article-template-1
-  title: Article template for Elemental Microscopy
-  description: An article template for the Elemental Microscopy journal focused on educational and informative content.
-  short_title: EM Template
+  id: to-sand-or-not
+  title: "To Sand, or Not to Sand: SrRuO3 Pulsed Laser Deposition with Full-Frame Plume Dynamic Imaging"
+  description: "To Sand, or Not to Sand: SrRuO3 Pulsed Laser Deposition with Full-Frame Plume Dynamic Imaging"
+  short_title: "To Sand, or Not to Sand: SrRuO3 Pulsed Laser Deposition with Full-Frame Plume Dynamic Imaging"
   doi: 10.69761/TAMJ0615
   keywords:
     - Article Template
     - Computational Article
   github: https://github.com/msa-em/em-template
-  # jupyter: true
+  jupyter: true
   #  jupyter:
   #    binder:
   #      url: https://y2j74k9mn0bz.curvenote.dev/services/binder/
   #      repo: msa-em/em-template
-  #      ref: main
-   jupyter:
-     server:
-       url: 'http://localhost:8888'
-       token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
+  # #      ref: main
+  #  jupyter:
+  #    server:
+  #      url: 'http://localhost:8888'
+  #      token: '512ac78f14e1141db1fac17e8b4099c1e5bc7d589518b38c'
   open_access: true
   license: CC-BY-4.0
   banner: banner.png
@@ -43,6 +43,82 @@ project:
   exclude:
     - README.md
   authors:
+    - id: yichen-guo
+      name: Yichen Guo
+      equal_contrib: true
+      affiliations:
+        - id: lehigh-mse
+          department: Department of Materials Science and Engineering
+          institution: Lehigh University
+          address: Bethlehem, PA 18015, USA
+    - id: liyan-wu
+      name: Liyan Wu
+      equal_contrib: true
+      affiliations:
+        - id: drexel-mem
+          department: Department of Mechanical Engineering and Mechanics
+          institution: Drexel University
+          address: Philadelphia, PA 19104, USA
+    - id: julian-goddy
+      name: Julian Goddy
+      affiliations:
+        - id: drexel-mem
+          department: Department of Mechanical Engineering and Mechanics
+          institution: Drexel University
+          address: Philadelphia, PA 19104, USA
+    - id: theo-beers
+      name: Theo Beers
+      affiliations:
+        - id: drexel-mem
+          department: Department of Mechanical Engineering and Mechanics
+          institution: Drexel University
+          address: Philadelphia, PA 19104, USA
+    - id: lane-martin
+      name: Lane Martin
+      affiliations:
+        - id: berkeley-mse
+          department: Department of Materials Science and Engineering
+          institution: University of California, Berkeley
+          address: Berkeley, CA 94720, USA
+        - id: berkeley-lbnl
+          department: Materials Sciences Division
+          institution: Lawrence Berkeley National Laboratory
+          address: Berkeley, CA 94720, USA
+        - id: rice-msne
+          department: Department of Materials Science and Nanoengineering
+          institution: Rice University
+          address: Houston, TX 77005, USA
+        - id: rice-rami
+          department: Rice Advanced Materials Institute
+          institution: Rice University
+          address: Houston, TX 77005, USA
+    - id: jonathan-spanier
+      name: Jonathan Spanier
+      affiliations:
+        - id: drexel-mem
+          department: Department of Mechanical Engineering and Mechanics
+          institution: Drexel University
+          address: Philadelphia, PA 19104, USA
+        - id: drexel-mse
+          department: Department of Materials Science and Engineering
+          institution: Drexel University
+          address: Philadelphia, PA 19104, USA
+    - id: joshua-agar
+      name: Joshua Agar
+      corresponding: true
+      email: jca92@drexel.edu
+      affiliations:
+        - id: drexel-mem
+          department: Department of Mechanical Engineering and Mechanics
+          institution: Drexel University
+          address: Philadelphia, PA 19104, USA
+      roles:
+        - Conceptualization
+        - Funding acquisition
+        - Project administration
+        - Supervision
+        - Visualization
+        - Writing - original draft
     - id: cophus
       name: Colin Ophus
       corresponding: true
@@ -105,3 +181,4 @@ project:
     STEM: scanning transmission electron microscopy
 site:
   template: book-theme
+  logo: public/m3-light.png
