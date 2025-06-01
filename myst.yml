@@ -182,3 +182,6 @@ project:
 site:
   template: book-theme
   logo: public/m3-light.png
+sphinx:
+  config:
+    bibtex_reference_style: label 
