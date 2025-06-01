@@ -184,4 +184,4 @@ site:
   logo: public/m3-light.png
 sphinx:
   config:
-    bibtex_reference_style: label 
+    bibtex_reference_style: label
