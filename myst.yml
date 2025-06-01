@@ -1,7 +1,7 @@
 # See docs at: https://mystmd.org/guide/frontmatter
 version: 1
 project:
-  id: to-sand-or-not
+  id: msa-em-article-template-1
   title: "To Sand, or Not to Sand: SrRuO3 Pulsed Laser Deposition with Full-Frame Plume Dynamic Imaging"
   description: "To Sand, or Not to Sand: SrRuO3 Pulsed Laser Deposition with Full-Frame Plume Dynamic Imaging"
   short_title: "To Sand, or Not to Sand: SrRuO3 Pulsed Laser Deposition with Full-Frame Plume Dynamic Imaging"
